@@ -1,8 +1,19 @@
 # Graphviz::Generator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/graphviz/generator`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a quick hack to support making graphviz diagrams.
 
-TODO: Delete this and the text above, and describe your gem
+I find that when I'm debugging something, I want to record information
+if a particular way. This is a layer over
+[ruby-graphviz](https://github.com/glejeune/Ruby-Graphviz) to
+facilitate that.
+
+It's primary purpose is to allow me to define subgraphs and nodes in a
+hierarchical fashion, and then build unique names for dot. Take a look
+at the [examples](./examples/).
+
+## TODO and Bugs
+
+Legends are currently broken.
 
 ## Installation
 
@@ -22,13 +33,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
 ## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
